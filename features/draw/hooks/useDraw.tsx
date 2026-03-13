@@ -14,7 +14,8 @@ export function useDraw() {
             setResult(quote);
 
         } catch (error) {
-            setResult("Erro ao gerar sorte 😢"+ error);
+            setResult("Erro ao gerar a piada 😢");
+            console.log(error)
         } finally {
             setLoading(false);
         }

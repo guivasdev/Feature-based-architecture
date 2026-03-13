@@ -5,17 +5,15 @@ import { useDraw } from "../hooks/useDraw";
 
 export default function DrawForm() {
 
-    
     const { handleDraw, resultString, loading } = useDraw()
-
 
     return (
         <View style={styles.container}>
 
-            <Text style={styles.title}>🎲 Sorte do Dia</Text>
+            <Text style={styles.title}>Piada do Dia</Text>
 
             <TouchableOpacity style={styles.button} onPress={handleDraw}>
-                <Text style={styles.buttonText}>Gerar Sorte</Text>
+                <Text style={styles.buttonText}>Gerar Piada</Text>
             </TouchableOpacity>
 
             {loading && <ActivityIndicator size="large" color="#000" />}

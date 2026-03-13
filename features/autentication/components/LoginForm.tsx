@@ -114,6 +114,7 @@ const styles = StyleSheet.create({
         color: "#2563eb",
         fontSize: 14,
     },
+
     loadingContainer: {
         position: "absolute",
         width: '100%',
@@ -124,8 +125,9 @@ const styles = StyleSheet.create({
         bottom: 0,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: "rgba(0,0,0,0.2)", // opcional
+        backgroundColor: "rgba(0,0,0,0.2)",
     },
+
     error: {
         textAlign: 'center'
     }

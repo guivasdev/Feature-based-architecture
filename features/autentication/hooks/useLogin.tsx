@@ -9,7 +9,6 @@ export function useLogin() {
     const [password, setPassword] = useState("");
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState("");
-    const [mensage, setMensage] = useState("");
 
     const router = useRouter();
 
@@ -40,7 +39,6 @@ export function useLogin() {
         setEmail,
         setPassword,
         login,
-        mensage,
         loading,
         error
     };
